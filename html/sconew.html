@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket's portfolio</title>
+    <link rel="stylesheet" href="../css/sconew.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav_bar" >
+                <a class="header__logo" href="../index.html">BDL</a>
+                 <img id="mobilemenu" class="mobile-menu" src="../images/menu icon.png" alt="menu button">
+            <nav>
+                <img id="exitmenu" class="exit-menu" src="../images/xicon.jfif" alt="exit button">
+                <ul class="nav__item">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sconew.html">SCO</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+
+    <script>
+        const mobileBtn = document.getElementById('mobilemenu')
+        nav=document.querySelector('nav');
+        mobileBtnExit = document.getElementById('exitmenu')
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn')
+        })
+    </script>
+
+<h2 class="scoheader">SCO</h2>
+<div class="mainsco">
+    <div class="charity">
+        <div class="scopic">
+          <img class="scoimage" src="../images/SCO picture.jpg" alt="charity organizers photo">
+          <p class="scoparagraph">student charity organization is launched in 2012 at the time covid 19 expansion organized by students.
+            this organazation helps peoples that cannot able to work,who are weak&
+            aperson who have not enough materials&can not full fill basicneeds.. we also used to go out to different recreational places and visit. My dad loved these things. My dad was the actor in my childhood. From talking about anything and everything with us, to dreaming big things and providing a lot of opportunities for us, he played a huge role in getting us to where we are now. It is at that time that I developed most of the skills I have now. Generally, I can confidently say I had an amazing childhood thanks to my dear parents.</p>
+    </div>
+    <input class="joinus" type="button" name="Joinus" value="joinus">
+    </div>
+    
+    <div class="scotable">
+        <table>
+            <tr>
+                <th colspan="2">SCO Values</th>
+            </tr>
+            <tr>
+                <th>Members</th>
+                <th>Role</th>
+            </tr>
+            <tr>
+                <td>Bereket</td>
+                <td>team leader</td>
+            </tr>
+            <tr>
+                <td>Biruk</td>
+                <td>team member</td>
+            </tr>
+            <tr>
+                <td>abel</td>
+                <td>team member</td>
+            </tr>
+            <tr>
+                <td>senay</td>
+                <td>team member</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__address">
+        <p>ADDIS ABABA 5 KILO</p>
+    </div>
+    <ul class="footer__nav">
+        <li class="footer__nav--list"><a  href="../index.html">Home</a></li>
+        <li class="footer__nav--list"><a href="about.html">About</a></li>
+        <li class="footer__nav--list"><a href="contact.html">contact me</a></li>
+        <li class="footer__nav--list"><a href="gallery.html">Gallery</a></li>
+        <li class="footer__nav--list"><a href="sconew.html">SCO</a></li>
+    </ul>
+    <ul class="footer__links">
+        <a href="http://www.facebook.com/profile.php?berekettesfaye"><i class="fa fa-facebook-square"></i>FB   </a>
+        <a href="http://www.twitter.com/azaryamesphin" ><i class="fa fa-twitter-square" alt="twitter page"></i>Twitter</a>
+        <a href="http://t.me/beki_demissie"><i class="fa fa-telegram"></i>TG  </a>
+        <a href="tell:+251 984 717 925"><i class="fa fa-phone-square"></i>Phone </a>
+        <a href="mailto:bereketdemissie4382@gmail.com"><i class="fa fa-envelope-o"></i>Email</a>
+    </ul>
+    </div>
+</footer>
+</body>
+</html>

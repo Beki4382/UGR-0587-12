@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket's portfolio</title>
+    <link rel="stylesheet" href="../css/skill.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav_bar" >
+                <a class="header__logo" href="../index.html">BDL</a>
+                 <img id="mobilemenu" class="mobile-menu" src="../images/menu icon.png" alt="menu button">
+            <nav>
+                <img id="exitmenu" class="exit-menu" src="../images/xicon.jfif" alt="exit button">
+                <ul class="nav">
+                    <li class="nav__item"><a href="../index.html">Home</a></li>
+                    <li class="nav__item"><a href="about.html">About</a></li>
+                    <li class="nav__item"><a href="sconew.html">SCO</a></li>
+                    <li class="nav__item"><a href="gallery.html">Gallery</a></li>
+                    <li class="nav__item"><a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    <script>
+        const mobileBtn = document.getElementById('mobilemenu')
+        nav=document.querySelector('nav');
+        mobileBtnExit = document.getElementById('exitmenu')
+        mobileBtn.addEventListener('click',() => {
+            nav.classList.add('menu-btn');
+        })
+        mobileBtnExit.addEventListener('click',() => {
+            nav.classList.remove('menu-btn')
+        })
+    </script>
+
+<div class="miniheader">
+    <a href="#">Skill</a>
+    <a href="#">Trainings</a>
+    <a href="#">Other</a>
+</div>
+<div class="main_content">
+    <div class="skillpic">
+        <figure>
+            <img src="../images/certeficate.jpg" alt="orange lab treining certeficate">
+            <figcaption>This is one of the skills that i aquired</figcaption>
+        </figure>
+    </div>
+    <div class="skilllist">
+        <h2>My skills</h2>
+        <ul class="skillslist">
+            <li>basic understanding of what the user want</li>
+            <li>python,java and c++ programining languages</li>
+            <li>good communication skills</li>
+            <li>problem solving capability</li>
+            <li>mathematical skill</li>
+            <li>learning concepts and applying them to other problems</li>
+            
+        </ul>
+    </div>
+    <div class="morepics">
+        <img class="first_pic" src="../images/reading skill.png" alt="my other skill"> <br>
+        <img src="../images/communication.png" alt="my another skill">
+        <img src="../images/codding skill.jfif" alt="third skill i own">
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__address">
+        <p>ADDIS ABABA 5 KILO</p>
+    </div>
+    <ul class="footer__nav">
+        <li class="footer__nav--list"><a  href="../index.html">Home</a></li>
+        <li class="footer__nav--list"><a href="about.html">About</a></li>
+        <li class="footer__nav--list"><a href="contact.html">contact me</a></li>
+        <li class="footer__nav--list"><a href="gallery.html">Gallery</a></li>
+        <li class="footer__nav--list"><a href="sconew.html">SCO</a></li>
+    </ul>
+    <ul class="footer__links">
+        <a href="http://www.facebook.com/profile.php?berekettesfaye"><i class="fa fa-facebook-square"></i>FB   </a>
+        <a href="http://www.twitter.com/azaryamesphin" ><i class="fa fa-twitter-square" alt="twitter page"></i>Twitter</a>
+        <a href="http://t.me/beki_demissie"><i class="fa fa-telegram"></i>TG  </a>
+        <a href="tell:+251 984 717 925"><i class="fa fa-phone-square"></i>Phone </a>
+        <a href="mailto:bereketdemissie4382@gmail.com"><i class="fa fa-envelope-o"></i>Email</a>
+    </ul>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket's portfolio</title>
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav_bar" >
+                <a class="header__logo" href="../index.html">BDL</a>
+                 <img id="mobilemenu" class="mobile-menu" src="../images/menu icon.png" alt="menu button">
+            <nav>
+                <img id="exitmenu" class="exit-menu" src="../images/xicon.jfif" alt="exit button">
+                <ul class="nav">
+                    <li class="nav__item"><a href="../index.html">Home</a></li>
+                    <li class="nav__item"><a href="about.html">About</a></li>
+                    <li class="nav__item"><a href="sconew.html">SCO</a></li>
+                    <li class="nav__item"><a href="gallery.html">Gallery</a></li>
+                    <li class="nav__item"><a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+    <script>
+        const mobileBtn = document.getElementById('mobilemenu')
+        nav=document.querySelector('nav');
+        mobileBtnExit = document.getElementById('exitmenu')
+        mobileBtn.addEventListener('click',() => {
+            nav.classList.add('menu-btn');
+        })
+        mobileBtnExit.addEventListener('click',() => {
+            nav.classList.remove('menu-btn')
+        })
+    </script>
+
+    <main>
+        <div class="main">
+            <div class="main__container">
+            <div class="main__headers">
+                <li><h4><a href="#">Authography</a></h4></li>
+                <li><h4><a href="#">Habits</a></h4></li>
+                <li><h4><a href="#">skills & training</a></h4></li>
+                
+            </div>
+            <section class="section">
+               
+                <img src="../images/beki.jpg" alt="berekets picture">
+        
+                <p>I was born in Addis Ababa in a public health station around 4 killo. My dad, Asrate kassa and mom Yeshiwork simegn were both, at that time, teachers with low income. 
+                    I already had 2 elder sisters, Tsigemariam and sebenemariam but only one was staying with us in Addis. 
+                    I wasn’t a very healthy child. I was almost regularly sick and kept returning my parents to clinics.
+                     Watching my elder sister go to school and learn, I was very eager to join so I got into a nursery class at Abunegorgorios School at the age of 3. 
+                     I learnt there until grade 12. I lived in a lot of neighborhoods while growing up but most of my memorable childhood was at ferensay legasion. We lived there till I was 6th grader then we moved to legetafo. Legetafo, it is where I still live, is where the 2nd half of my childhood resides. My childhood was mostly filled with school, church, a lot of relatives used to stay with that so family time and traveling once in a while. we also used to go out to different recreational places and visit. My dad loved these things. My dad was the actor in my childhood. From talking about anything and everything with us, to dreaming big things and providing a lot of opportunities for us, he played a huge role in getting us to where we are now. It is at that time that I developed most of the skills I have now. Generally, I can confidently say I had an amazing childhood thanks to my dear parents.
+                </p>
+            </section>
+        </div>
+        
+        <aside class="aside">
+             <figure>
+                <li><img src="../images/coder.jfif" alt=" coder photo"></li>
+                <figcaption>coding</figcaption>
+             </figure>
+            <figure>
+                <li><img src="../images/uidesigner.jfif" alt=" web developer photo"></li>
+                <figcaption>web developing</figcaption>
+            </figure>
+            <figure>
+                <li><img src="../images/webdesigner.jfif" alt=" user interface designer photo"></li>
+                <figcaption>user interface designing</figcaption>
+            </figure>     
+        </aside> 
+    </div>  
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__address">
+            <p>ADDIS ABABA 5 KILO</p>
+        </div>
+        <ul class="footer__nav">
+            <li class="footer__nav--list"><a  href="../index.html">Home</a></li>
+            <li class="footer__nav--list"><a href="about.html">About</a></li>
+            <li class="footer__nav--list"><a href="contact.html">contact me</a></li>
+            <li class="footer__nav--list"><a href="gallery.html">Gallery</a></li>
+            <li class="footer__nav--list"><a href="sconew.html">SCO</a></li>
+        </ul>
+        <ul class="footer__links">
+            <a href="http://www.facebook.com/profile.php?berekettesfaye"><i class="fa fa-facebook-square"></i>FB   </a>
+            <a href="http://www.twitter.com/azaryamesphin" ><i class="fa fa-twitter-square" alt="twitter page"></i>Twitter</a>
+            <a href="http://t.me/beki_demissie"><i class="fa fa-telegram"></i>TG  </a>
+            <a href="tell:+251 984 717 925"><i class="fa fa-phone-square"></i>Phone </a>
+            <a href="mailto:bereketdemissie4382@gmail.com"><i class="fa fa-envelope-o"></i>Email</a>
+        </ul>
+        </div>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bereket's portfolio</title>
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="nav_bar" >
+                <a class="header__logo" href="../index.html">BDL</a>
+                 <img id="mobilemenu" class="mobile-menu" src="../images/menu icon.png" alt="menu button">
+            <nav>
+                <img id="exitmenu" class="exit-menu" src="../images/xicon.jfif" alt="exit button">
+                <ul class="nav__item">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="sconew.html">SCO</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+
+                </ul>
+            </nav>
+          </div>
+        </div>
+    </header>
+
+    <script>
+        const mobileBtn = document.getElementById('mobilemenu')
+        nav=document.querySelector('nav');
+        mobileBtnExit = document.getElementById('exitmenu')
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn')
+        })
+    </script>
+
+  <main class="main">
+        <div class="main__images">
+            <img class="main__photo" src="../images/beki.jpg" alt="bereket picture">
+            <img class="main__photo main__photo--overlap" src="../images/bereket.jpg" alt="bereket photo">
+        </div>
+        <div class="main__text"><p>I was born in Addis Ababa in a public health station around 4 killo. My dad, Asrate kassa and mom Yeshiwork simegn were both, at that time, teachers with low income. I already had 2 elder sisters, Tsigemariam and sebenemariam but only one was staying with us in Addis. I wasn’t a very healthy child. I was almost regularly sick and kept returning my parents to clinics. Watching my elder sister go to school and learn, I was very eager to join so I got into a nursery class at Abunegorgorios School at the age of 3. I learnt there until grade 12. I lived in a lot of neighborhoods while growing up but most of my memorable childhood was at ferensay legasion.</p>
+        </div>
+        <div class="main__images main__images--wide">
+            <div><img class="main__photo2" src="../images/family picture.png" alt="family ficture"></div>
+            <div><img class="main__photo2 main__photo2--overlap" src="../images/tse.jpg" alt="best freinds picture"></div>
+            <div><img class="main__photo2" src="../images/kaleb.jpg" alt="brother and sister picture"></div>
+        </div>
+        <div class="main__text"><p>Educational background 
+            I learned in Abunegorgorios School from kindergarten up to 12th grade. I was an excellent student although a slight decrement was observed in the latter years. </p></div>
+
+        <div class="main__paragraph"><p>For higher education I joined Addis Ababa University and chose engineering. I am now almost half way in pursuing an undergraduate degree in Information technology and engineering. University has its ups and downs but I say I’m having a good time and trying to gather as much information and knowledge as possible while contributing what I can to different parties and improve myself as a person.</p></div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__address">
+            <p>ADDIS ABABA 5 KILO</p>
+        </div>
+        <ul class="footer__nav">
+            <li class="footer__nav--list"><a  href="../index.html">Home</a></li>
+            <li class="footer__nav--list"><a href="about.html">About</a></li>
+            <li class="footer__nav--list"><a href="contact.html">contact me</a></li>
+            <li class="footer__nav--list"><a href="gallery.html">Gallery</a></li>
+            <li class="footer__nav--list"><a href="sconew.html">SCO</a></li>
+        </ul>
+        <ul class="footer__links">
+            <a href="http://www.facebook.com/profile.php?berekettesfaye"><i class="fa fa-facebook-square"></i>FB   </a>
+            <a href="http://www.twitter.com/azaryamesphin" ><i class="fa fa-twitter-square" alt="twitter page"></i>Twitter</a>
+            <a href="http://t.me/beki_demissie"><i class="fa fa-telegram"></i>TG  </a>
+            <a href="tell:+251 984 717 925"><i class="fa fa-phone-square"></i>Phone </a>
+            <a href="mailto:bereketdemissie4382@gmail.com"><i class="fa fa-envelope-o"></i>Email</a>
+        </ul>
+        </div>
+    </footer>
+    </body>
+</html>
